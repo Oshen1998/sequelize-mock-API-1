@@ -3,16 +3,16 @@
 
 backend
 │
-└─── dist                   #all the javascript files are here
-└─── lib                    #all the typescript files are here
-      └─── config           #app configurations files
-            └─── app.ts     #app starting point            
-      └─── controllers      #request managers
-      └─── modules          #schemas, interfaces, services
-      └─── routes           #define the endpoints
-      └─── environment.ts   #store all environment variables
-      └─── server.js        #HTTP server that listens to server port
-└─── .gitignore             #git ignore file
-└─── package-lock.json      #npm automatically generated document
-└─── package.json           #holds metadata and npm packagage list
-└─── tsconfig.json          #specify the root level files and the                                              .                            compiler options
+└─── dist                   # All the JavaScript files are here
+└─── lib                    # All the TypeScript files are here
+      └─── config           # App configurations files
+            └─── app.ts    # App starting point            
+      └─── controllers     # Request managers
+      └─── modules         # Schemas, interfaces, services
+      └─── routes          # Define the endpoints
+      └─── environment.ts  # Store all environment variables
+      └─── server.js       # HTTP server that listens to server port
+└─── .gitignore             # Git ignore file
+└─── package-lock.json     # Automatically generated document by npm
+└─── package.json          # Holds metadata and npm package list
+└─── tsconfig.json         # Specify the root level files and the compiler options
