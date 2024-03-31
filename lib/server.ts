@@ -1,4 +1,3 @@
-import { config } from "dotenv";
 import app from "./config/app";
 import env from './environment/index';
 
