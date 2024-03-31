@@ -1,6 +1,6 @@
 import { Environments } from "../constants/enums/environments.enum";
 
-export class Environment {
+class Environment {
     private environment: String;
 
     constructor(environment: String) {
