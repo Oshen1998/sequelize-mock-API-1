@@ -9,9 +9,12 @@ backend
 │   ├── config             # App configurations files  
 │   │   └── app.ts         # App starting point              
 │   ├── controllers        # Request managers  
-│   ├── modules            # Schemas, interfaces, services  
+│   ├── constants          # Schemas, interfaces, common services and enum ...etc  
 │   ├── routes             # Define the endpoints  
-│   └── environment.ts    # Store all environment variables  
+│   ├── services           # Database Services
+│   ├── models             # Define database models here
+│   ├── instance           # SQL instance define here  
+│   └── environment.ts     # Store all environment variables  
 ├── server.js              # HTTP server that listens to server port  
 ├── .gitignore             # Git ignore file  
 ├── package-lock.json      # Automatically generated document by npm  
